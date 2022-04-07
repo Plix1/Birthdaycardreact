@@ -1,0 +1,10 @@
+step 1 : Create data.js folder and use export default to export the file.
+step 2 : Create a file (List.js) wherein you are gonna display the peoples info.
+step 3 : In App.js folder make use of Usestate and i.e const [people,setPeople]=useState(data) here `data represents the data that we created in the data.js folder.
+step 4 : In the jsx write how you wanna display the content call the file (List.js) pass the people={people} as a prop 
+step 5 : Now destructure the people prop in the parameter of List.js File ({people})
+step 6 : Use people.map() method and destructure the content const {id,name,age,img}=person;
+step 7 : Use jsx to make the card look more appealing use css if necessary.
+
+note:::::: While using img: dont use stock photo rather use the images from the net via copy the img address and paste that in Double Quotes("") not like (img:<img src=""> Wrong ) ///
+             (img:"https/imageExample/men/56" Right) .

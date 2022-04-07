@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(236, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  background: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  
+  
+}
+.container h2{
+  margin-bottom: 40px;
+}
+.btn{
+  padding: 5px;
+  margin-top:30px ;
+}
+.person{
+  margin-top: 30px;
+  display: flex;
+ 
+}
+.person img{
+  width: 70px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
